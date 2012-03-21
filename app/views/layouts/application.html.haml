@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title= content_for?(:title) ? yield(:title) : "Untitled"
+    = stylesheet_link_tag "application"
+    = javascript_include_tag :application
+    = csrf_meta_tag
+    = yield(:head)
+  %body
+    #container
+      = render "shared/flashes"
+      = render "shared/menu"
+      = content_tag :h1, yield(:title) if show_title?
+      = yield

@@ -1,0 +1,2 @@
+- title "Welcome #{ employee_signed_in? ? current_employee.name : ''}"
+= image_tag(current_employee.twitter_image(:size => 'original')) if employee_signed_in?

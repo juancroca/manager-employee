@@ -1,0 +1,19 @@
+// Active Admin CSS Styles
+@import "active_admin/mixins";
+@import "active_admin/base";
+
+// To customize the Active Admin interfaces, add your
+// styles here:
+
+body.logged_out.new .flash {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  text-shadow: white 0 1px 0;
+  background: none;
+  color: red;
+  font-weight: bold;
+  line-height: 1.0em;
+  margin-bottom: 10px;
+  padding: 0;
+}

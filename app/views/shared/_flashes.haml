@@ -1,0 +1,8 @@
+- flash.each do |name, msg|
+  = content_tag :div, msg, :id => "flash_#{name}"
+  :javascript
+    $(function(){
+      setTimeout(function(){
+        $("#flash_#{name}").slideUp('slow');
+      }, 3000);
+    });

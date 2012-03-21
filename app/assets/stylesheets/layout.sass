@@ -1,0 +1,149 @@
+$primary_color: #4b7399
+
+body
+  background-color: $primary_color
+  font:
+    family: Verdana, Helvetica, Arial
+    size: 14px
+
+a
+  color: blue
+  img
+    border: none
+
+.clear
+  clear: both
+  height: 0
+  overflow: hidden
+
+#container
+  width: 75%
+  margin: 0 auto
+  background: white
+  padding: 20px 40px
+  border: solid 1px black
+  margin-top: 20px
+
+#flash_notice,
+#flash_error,
+#flash_alert
+  padding: 5px 8px
+  margin: 10px 0
+
+#flash_notice
+  background-color: #ccffcc
+  border: solid 1px #66cc66
+
+#flash_error,
+#flash_alert
+  background-color: #ffcccc
+  border: solid 1px #cc6666
+
+.fieldWithErrors
+  display: inline
+
+.error_messages
+  width: 400px
+  border: 2px solid #cf0000
+  padding: 0
+  padding-bottom: 12px
+  margin-bottom: 20px
+  background-color: #f0f0f0
+  font:
+    size: 12px
+  h2
+    text-align: left
+    padding: 5px 5px 5px 15px
+    margin: 0
+    font:
+      weight: bold
+      size: 12px
+    background-color: #cc0000
+    color: white
+  p
+    margin: 8px 10px
+  ul
+    margin: 0
+
+form 
+  .field, 
+  .actions
+    margin: 10px 0
+  label
+    display: block
+  input.text
+    width: 450px
+	
+.handle
+  cursor: move
+  background: image-url("buttons/dragdrop.gif") no-repeat
+  display: inline-block
+  width: 20px
+  text-indent: -99999px
+  
+.alignleft
+  text-align: left
+.aligncenter
+  text-align: center
+.alignright
+  text-align: right
+
+
+table
+  border-collapse: separate
+  border-spacing: 0
+  vertical-align: middle
+  padding: 0
+  width: 100%
+  thead
+    th
+      border: 1px solid #000
+    th:last-child, th.black
+      background-color: #000
+      color: #FFF
+      width: 90%
+    th.black
+      border-right: 1px solid #fff
+    th.grey
+      background-color: #888
+  tbody
+    tr
+      vertical-align: top
+    tr.border
+      td, th
+        border: 1px solid
+        font-size: 11px
+        padding: 2px
+        label
+          display: inline-block
+          margin-left: 2px
+          padding: 2px
+        input[type='text'],
+        input[type='email'],
+        input[type='url']
+          margin-left: 2px
+          padding: 2px
+          width: 80%
+      td.nowrap
+        white-space: nowrap
+      td.midwidth
+        width: 40%
+      td.maxwidth
+        width: 100%
+      td.actions
+        a
+          padding: 2px
+    tr.grey
+      td
+        background-color: #ddd
+        text-align: center
+    tr.aligncenter
+      td
+        text-align: center
+      td.alignleft
+        text-align: left
+  table.table1
+    float: right
+    width: 350px
+    td
+      width: 68px
