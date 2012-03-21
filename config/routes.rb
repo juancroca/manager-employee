@@ -1,5 +1,4 @@
 EmployeeManager::Application.routes.draw do
-  break if ARGV.join.include? 'assets:precompile'
   devise_for :employees
 
   ActiveAdmin.routes(self)
