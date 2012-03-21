@@ -1,7 +1,9 @@
 ---
 facebook.png: facebook-0fe5669d7a30567208458be1300da34f.png
 twitter.png: twitter-6974ad9481eb759a31a0aab3dc40ea92.png
+active_admin.js: active_admin-e3e52e72b70b1b200ef3ffd3b47b3f3e.js
 application.js: application-ad93b6e6539f7dbc1aeddd0147746a98.js
+active_admin.css: active_admin-f34cf2c7f79f8878df03f3adb2634dda.css
 application.css: application-dfb91d81d4c2b8dbfb81ddbd35329dab.css
 active_admin/admin_notes_icon.png: active_admin/admin_notes_icon-6eb45caa96d965a96dd65eba4ba136df.png
 active_admin/datepicker/datepicker-header-bg.png: active_admin/datepicker/datepicker-header-bg-d0905bcf45dbdc6ebd8a0f886465e2d5.png
