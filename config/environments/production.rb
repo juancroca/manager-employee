@@ -73,4 +73,6 @@ EmployeeManager::Application.configure do
     :domain         => "proyectomapeo.org"
   }
   ActionMailer::Base.delivery_method = :smtp
+  config.assets.compile = false
+  config.assets.precompile += ['active_admin.js', 'active_admin.css']
 end
