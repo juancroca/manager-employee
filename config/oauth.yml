@@ -1,0 +1,7 @@
+Facebook:
+  production:
+    token: "386430941380671"
+    secret: "AykniZ8N8G0w0GLq4e334CHkTYvlNrpyKopdszGnog"
+  development:
+    token: "173305586055471"
+    secret: "440a3b93eba3526bc42f49a686a9ae7f"

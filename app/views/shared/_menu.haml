@@ -2,6 +2,10 @@
   - if employee_signed_in?
     %li
       = link_to('Logout', destroy_employee_session_path, :method => :delete)
+    - unless current_employee.uid
+      %li
+        |
+        = link_to "Link Facebook", employee_omniauth_authorize_path(:facebook) 
   - else
     %li
       = link_to('Login', new_employee_session_path)

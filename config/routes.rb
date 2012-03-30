@@ -1,6 +1,6 @@
 EmployeeManager::Application.routes.draw do
   break if ARGV.join.include? 'assets:precompile'
-  devise_for :employees
+  devise_for :employees, :controllers => { :omniauth_callbacks => "employees/omniauth_callbacks" }
 
   ActiveAdmin.routes(self)
 

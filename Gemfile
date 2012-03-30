@@ -11,6 +11,7 @@ gem 'activeadmin'
 gem 'haml', '3.1.4'
 gem 'twitter'
 gem 'sass-rails',   '~> 3.2.3'
+gem "omniauth-facebook"
 
 
 # Gems used only for assets and not required
