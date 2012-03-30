@@ -19,7 +19,7 @@ class Employee < ActiveRecord::Base
   end
   
   def twitter_image(options={})
-    Twitter.profile_image( self.twitter_name, options)
+    Twitter.profile_image( self.twitter_name, options) unless self.twitter_name.blank?
   end
 
   def twitter_url
